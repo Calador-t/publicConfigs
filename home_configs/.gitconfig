@@ -1,0 +1,14 @@
+[user]
+    name = Calador
+    email = no@mail.no
+[credential]
+    helper = store
+
+[push]
+    default = simple
+[alias]
+    st = status
+    co = checkout
+    br = branch
+    logg = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset)%n''          %C(dim white)%s%C(reset) %C(dim blue)- %an%C(reset)' --all
+    addcw = -c interactive.diffFilter='git diff --color-words' add -p  

@@ -1,0 +1,13 @@
+# Ctrl + ArrowUp
+"\e[1;5A": history-search-backward
+# Ctrl + ArrowDown
+"\e[1;5B": history-search-forward
+
+# word-wise moving
+"\e[1;5C": forward-word
+"\e[1;5D": backward-word
+
+# word-wise deletion
+"\e[3;5~": kill-word
+"\C-h": backward-kill-word
+"\C-_": backward-kill-word
