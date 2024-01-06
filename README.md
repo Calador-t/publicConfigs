@@ -1,2 +1,3 @@
-# publicConfigs
-containing the configs for my instalation of some programms
+# OLD CONFIGS!!!
+New are here: https://gitlab.com/Calador/Configs/-/tree/main?ref_type=heads
+
